@@ -1,0 +1,68 @@
+@import './globals.css';
+
+
+/* might remove the card depend on how it look */
+/* the card setting  */
+.Main_card{
+    /* placement of the card */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    max-width: 600px;
+    background-color: #f0f8ffbf;
+    text-align: center;
+    margin: 20;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--ColorOne);
+    border-radius: 10px;
+    
+}
+
+/* the main background color */
+#BG{
+    background-color: var(--ColorOne);
+}
+
+/* a line the image and the text */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+/* name text */
+.Name{
+    font-size: 3rem;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* card that hold the link and logo */
+#link-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--ColorThree);
+    border-radius: 25px;
+    margin: 15px;
+}
+#logo-text-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+}
+
+/* logo size */
+#logo{
+    max-width: 42px;
+    max-height: 42px;
+}
